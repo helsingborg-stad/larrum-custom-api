@@ -1,7 +1,7 @@
 ## Lärrum custom api
 
 ## Dependencies
-1. File Upload Types by WPForms  
+1. File Upload Types by WPForms, Add these manually.
    
         Description = glb
         MIME Type = application/octet-stream
@@ -18,7 +18,7 @@
 2. Classic Editor  
         Activates classic editor in wordress
 
-3. Advanced Custom Fields PRO
+3. Advanced Custom Fields PRO, import acf-export-2022-06-01.json to get required field group.
 
 ## TODO
 Frontend:
