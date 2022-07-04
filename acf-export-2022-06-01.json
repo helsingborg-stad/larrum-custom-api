@@ -1,0 +1,198 @@
+[
+    {
+        "key": "group_628b2e619ec33",
+        "title": "Post settings",
+        "fields": [
+            {
+                "key": "field_628b2e6fe6951",
+                "label": "Inläggs titel",
+                "name": "post_title",
+                "type": "text",
+                "instructions": "Projektets titel",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_628b2e9009b67",
+                "label": "Inläggs rubrik",
+                "name": "post_headline",
+                "type": "text",
+                "instructions": "Projektets rubrik",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": 200
+            },
+            {
+                "key": "field_628b2ea209b68",
+                "label": "inläggs media",
+                "name": "post_media",
+                "type": "file",
+                "instructions": "Projektets media som du vill visa upp. Kan vara en video, bild, 3Dmodell eller en mp3-fil. \r\nViktigt att tagga rätt kategori med rätt medietyp.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "library": "all",
+                "min_size": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_628b8207a1d06",
+                "label": "Inläggs video story",
+                "name": "post_story_url",
+                "type": "repeater",
+                "instructions": "Om du vill ha en videostory",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_628b8267e2f35",
+                        "label": "Youtube",
+                        "name": "youtube_url",
+                        "type": "url",
+                        "instructions": "Länka till youtube videoklipp",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_628b2ed709b6a",
+                "label": "Inläggs latitud",
+                "name": "post_lat",
+                "type": "number",
+                "instructions": "Hämta latitud genom https:\/\/www.google.com\/maps\/ och högerklicka på kartan för att få ut position",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "min": "",
+                "max": "",
+                "step": ""
+            },
+            {
+                "key": "field_628b2ebd09b69",
+                "label": "Inläggs longitud",
+                "name": "post_long",
+                "type": "number",
+                "instructions": "Hämta longitud genom https:\/\/www.google.com\/maps\/ och högerklicka på kartan för att få ut position",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "min": "",
+                "max": "",
+                "step": ""
+            },
+            {
+                "key": "field_628b3233915f1",
+                "label": "Inläggets bakgrund",
+                "name": "post_placeholder",
+                "type": "file",
+                "instructions": "Inläggets bakgrund som visas bakom projektets media. Kan vare en bild eller en video.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "library": "all",
+                "min_size": "",
+                "max_size": "",
+                "mime_types": "mp4, jpg, jpeg, png"
+            },
+            {
+                "key": "field_62905b3c0ddf5",
+                "label": "Bakgrundsfärg",
+                "name": "post_primary_color",
+                "type": "color_picker",
+                "instructions": "Om ingen bakgrundsbild eller video har valts så kan en primärfärg visas bakom projektets media.",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "enable_opacity": 0,
+                "return_format": "string"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "post"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]

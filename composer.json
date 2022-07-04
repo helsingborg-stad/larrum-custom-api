@@ -1,0 +1,13 @@
+{
+    "name": "helsingborg-stad/larrum-custom-api",
+    "description": "Custom API Endpoint for Lärrum",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ronnie Poblete Vergara"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
